@@ -65,7 +65,7 @@ function PopulateTaxiIndex()
 	repeat
 		if DoesEntityExist(vehicle) then
 			if IsVehicleDriveable(vehicle) then
-				if GetEntityModel(vehicle) == GetHashKey("taxi8") then
+				if GetEntityModel(vehicle) == GetHashKey("taxi") then
 					local x, y, z = table.unpack(GetEntityCoords(vehicle))
 					local Px, Py, Pz = table.unpack(GetEntityCoords(PlayerPedId(), true))
 					local driver = GetPedInVehicleSeat(vehicle, -1)
@@ -97,7 +97,7 @@ function PopulateTaxiIndex()
 
 function SpawnTaxi(x, y, z)
 
-	local taxiModel = GetHashKey("taxi8")
+	local taxiModel = GetHashKey("taxi")
 	local driverModel = GetHashKey("a_m_y_stlat_01")
 
 	loadAnimDict("cellphone@")
