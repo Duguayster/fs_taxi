@@ -14,7 +14,7 @@ If you would like to contribute to this project then please [create a fork](http
 Push your changes to your fork and create a [pull request](https://help.github.com/articles/creating-a-pull-request) with your changes.
 
 ## Requirements
-- [FXServer](https://wiki.fivem.net/wiki/Running_FXServer)
+- [FXServer](https://docs.fivem.net/docs/server-manual/setting-up-a-server/)
 - [EssentialMode](https://forum.fivem.net/t/release-essentialmode-base)
 
 ## Installation
@@ -24,7 +24,6 @@ Push your changes to your fork and create a [pull request](https://help.github.c
 
 ## Compatible resources
 - [EssentialMode](https://forum.fivem.net/t/release-essentialmode-base)
-- [Freemode](https://github.com/FiveM-Scripts/fs_freemode)
 
 ## License
 This resource is released under the [GNU GPLv3](LICENSE) license.
