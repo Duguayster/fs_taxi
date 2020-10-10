@@ -1,6 +1,6 @@
 i18n.importData("en", {
 	taxi_contact = "Taxi call",
-	welcome_message = "Press ~g~F7~w~ or use ~g~/taxi~w~ to call a cab.",
+	welcome_message = "Use ~g~/taxi~w~ to call a cab.",
 	dispatch_message = "The taxi driver is on his way",
 	drivers_busy = "All our drivers are currently occupied.",
 	info_message = "Press ~INPUT_PICKUP~ to drive as a passenger or ~INPUT_ENTER~ to steal the vehicle.",
